@@ -63,12 +63,27 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
   }
   .responsive-image {
     width: 80%;
     height: 600px;
     object-fit: cover;
     border: 1px solid #ddd;
+  }
+
+  .department-logos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 10vh;
+  }
+
+  .department-logo-image {
+    width: 30%;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+
   }
   
