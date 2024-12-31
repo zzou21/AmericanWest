@@ -12,3 +12,6 @@ Course history:
 
 **Instructor**: Zhihui (Jerry) Zou  
 **Faculty Advisor**: Dr. Juliana Barr (Department of History, Duke University)
+
+Course website programmed by Zhihui (Jerry) Zou  
+Website theme credit: [Tactile](https://github.com/pages-themes/tactile)
