@@ -79,7 +79,7 @@ html, body {
     justify-content: flex-start;
     align-items: flex-start;
     height: 10vh;
-    gap: 10px;
+    gap: 3px;
   }
 
   .department-logo-image {
