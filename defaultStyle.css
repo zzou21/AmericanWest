@@ -49,4 +49,26 @@
   .menu-bar .dropdown:hover .dropdown-content {
     display: block;
   }
+
+/*For index.html*/
+html, body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center-frame-intro-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .responsive-image {
+    width: 80%;
+    height: 600px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
   
