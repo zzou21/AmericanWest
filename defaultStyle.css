@@ -63,12 +63,14 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    height: auto; 
   }
-  .responsive-image {
+    .responsive-image {
     width: 80%;
-    height: 600px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     border: 1px solid #ddd;
   }
 
@@ -77,13 +79,13 @@ html, body {
     justify-content: flex-start;
     align-items: flex-start;
     height: 10vh;
+    gap: 10px;
   }
 
   .department-logo-image {
     width: 30%;
-    height: 100px;
-    object-fit: cover;
-    border: 1px solid #ddd;
-
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ddd
   }
   
