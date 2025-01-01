@@ -8,7 +8,8 @@ permalink: /current-semester
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ '../defaultStyle.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ 'scheduleDropdownStyle.css' | relative_url }}">
+    <script src="{{ 'scheduleDropdown.js' | relative_url }}" defer></script>
   </head>
   <body>
     <h1 style="font-size: 24px;">Current Semester - Spring 2025</h1>
@@ -16,7 +17,13 @@ permalink: /current-semester
     <p>This class meets weekly from 5:15 pm to 6:45pm on Wednesdays at Perkins Library LINK Room 065 (Classroom 2). The first meeting is on January 15, 2025, and the last one is on April 23, 2025. Some meetings will be held elsewhere or on trips, and information about different locations will be communicated in advance.</p>
 
     <h3>Class Schedule: </h3>
-    
+    <div class="dropdown">
+      <button class="scheduleDropdownButton", data-target="dropdownWeek1">January 15, 2025, (Class 1, Week of January 13)<span class="caret"> ▼</span></button>
+      <div class="scheduleDropdownContent", id="dropdownWeek1">
+        <p>Course Introduction: <br>Syllabus, House Course policy, schedule, and assignment overview</p>
+      </div>
+    </div>
+
     
   </body>
 </html>
