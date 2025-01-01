@@ -27,9 +27,9 @@
 .scheduleDropdownContent{
     display: none; /* Hidden by default */
     position: relative; 
-    background-color: #f8f9fa; 
+    background-color: transparent; 
     min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);*/
     padding: 10px;
     z-index: 1; 
     border-radius: 5px;
