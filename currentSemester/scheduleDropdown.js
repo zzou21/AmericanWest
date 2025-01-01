@@ -4,6 +4,6 @@ scheduleDropdownButtons.forEach(button => {
     button.addEventListener("click", () => {
         const dropdownID = button.getAttribute("data-target");
         const dropdownContent = document.getElementById(dropdownID);
-        scheduleDropdownButtons.classList.toggle("active")
+        dropdownContent.classList.toggle("active")
     })
 })
