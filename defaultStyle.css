@@ -54,9 +54,6 @@
 html, body {
     margin: 0;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .center-frame-intro-photo {
@@ -88,45 +85,3 @@ html, body {
     object-fit: contain;
     border: 1px solid #ddd
   }
-  
-
-
-body {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-overflow: auto;
-}
-
-header {
-padding: 20px;
-background-color: #f8f9fa;
-font-size: 24px;
-text-align: center;
-}
-
-nav {
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 10px 20px;
-background-color: #007BFF;
-color: white;
-}
-
-nav a {
-text-decoration: none;
-color: white;
-font-size: 18px;
-}
-
-@media (max-width: 768px) {
-nav {
-    flex-wrap: wrap;
-    padding: 15px;
-}
-
-header {
-    font-size: 18px;
-}
-}
