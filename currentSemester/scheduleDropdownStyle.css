@@ -1,5 +1,9 @@
 /*For current-semester.html */
 
+.nav a {
+    display: block;
+    margin-bottom: 5px;
+}
 .dropdown{
     position: relative;
     display: inline-block;
