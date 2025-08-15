@@ -1,0 +1,87 @@
+/*For default.html: */
+.menu-bar {
+    display: flex;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-bar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007BFF;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-bar .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-bar .dropdown-btn {
+    text-decoration: none;
+    color: #007BFF;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-bar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .menu-bar .dropdown-content a {
+    display: block;
+    padding: 5px 10px;
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .menu-bar .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .menu-bar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/*For index.html*/
+html, body {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .center-frame-intro-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    height: auto; 
+  }
+    .responsive-image {
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ddd;
+  }
+
+  .department-logos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 10vh;
+    gap: 3px;
+  }
+
+  .department-logo-image {
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid #ddd
+  }
