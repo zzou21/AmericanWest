@@ -5,8 +5,9 @@ This is the code and materials for the course website for the _Deconstructing th
 To visit the course website, pleaase click [here](https://zzou21.github.io/AmericanWest/)
 
 Course history:  
+* **Fall 2025**: House Course (HOUSECS 59.01: Deconstructing American West)  
 * **Spring 2025**: House Course (HOUSECS 59.02: Deconstructing American West)  
-*  **Fall 2024**: House Course (HOUSECS 59.06: Deconstructing American West)
+* **Fall 2024**: House Course (HOUSECS 59.06: Deconstructing American West)
 
 <br>
 
